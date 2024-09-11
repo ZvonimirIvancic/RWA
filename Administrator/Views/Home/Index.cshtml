@@ -1,0 +1,22 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+@model dynamic
+@{
+    ViewData["Title"] = "RWA Songs - Welcome";
+}
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Song Reviewer</h1>
+        <p class="lead">Find reviews of your favourite songs. Have fun discovering different aspects of your favourite songs and finding music that suits your taste by reading the reviews of others. Channel your inner creativity when describing a song of your liking on this platform.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Home" asp-action="Login" role="button">See more</a>
+    </div>
+</div>
